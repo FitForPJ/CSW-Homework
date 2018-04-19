@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">ยินดีต้อนรับ</string>
+    <string name="convert">แปลงค่า</string>
+    <string name="status">ไม่มีช้อมูล</string>
+    <string name="name">ชื่อ</string>
+    <string name="surname">นามสกุล</string>
+    <string name="submit">ยืนยัน</string>
+    <string name="open_drawer">เปิด</string>
+    <string name="close_drawer">ปิด</string>
+    <string name="app_name" translatable="true">แอพลิเคชัน</string>
+    <string name="contact">รายชื่อ</string>
+    <string name="th">ไทย</string>
+    <string name="profile">ข้อมูลส่วนตัว</string>
+</resources>

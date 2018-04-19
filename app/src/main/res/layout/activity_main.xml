@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.thanar.myapplication.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/clbtn"
+        android:layout_width="320dp"
+        android:gravity="center"
+        android:layout_gravity="start"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/togglebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="EN"
+            />
+
+        <Button
+            android:id="@+id/togglebutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/th"
+           />
+
+
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="#FFFFFF"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+           android:gravity="center"
+           android:text="@string/contact"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPeople"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+   </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>
